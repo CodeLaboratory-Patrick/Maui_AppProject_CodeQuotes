@@ -4,20 +4,37 @@
              x:Class="Maui_Project_CodeQuotes.MainPage">
 
     <Grid BackgroundColor="Navy">
-        <Grid Margin="25" RowDefinitions=".8*, .2*">
+        
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStopCollection>
+                    <GradientStop Offset="0.0" Color="#051937" />
+                    <GradientStop Offset="0.25" Color="#004d7a" />
+                    <GradientStop Offset="0.50" Color="#008793" />
+                    <GradientStop Offset="0.75" Color="#00bf72" />
+                    <GradientStop Offset="1" Color="#a8eb12" />
+                </GradientStopCollection>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid Margin="25" RowDefinitions=".8*,.2*">
             <Label
-                FontSize="50"
+                x:Name="quote"
                 FontFamily="MainFont"
+                FontSize="50"
                 HorizontalTextAlignment="Center"
                 Text="They don't make bugs like Bunny anymore. - Olav Mjelde"
                 TextColor="White"
                 VerticalOptions="Center" />
             <Button
+                x:Name="btnGenerateQuote"
                 Grid.Row="1"
                 BackgroundColor="Black"
+                Clicked="btnGenerateQuote_Clicked"
                 Opacity=".4"
                 Text="Get New Quote" />
         </Grid>
+        
     </Grid>
 
 </ContentPage>
