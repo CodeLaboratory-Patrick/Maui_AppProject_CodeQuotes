@@ -7,6 +7,39 @@
             InitializeComponent();
         }
 
+        private void btnGenerateQuote_Clicked(object sender, EventArgs e)
+
+        {
+            Color randomColor1 = Color.FromRgb(red: Random.Shared.Next(0, 256),
+                green: Random.Shared.Next(0, 256),
+                blue: Random.Shared.Next(0, 256));
+
+            Color randomColor2 = Color.FromRgb(red: Random.Shared.Next(0, 256),
+                green: Random.Shared.Next(0, 256),
+                blue: Random.Shared.Next(0, 256));
+
+            Color randomColor3 = Color.FromRgb(red: Random.Shared.Next(0, 256),
+                green: Random.Shared.Next(0, 256),
+                blue: Random.Shared.Next(0, 256));
+
+            Color randomColor4 = Color.FromRgb(red: Random.Shared.Next(0, 256),
+                green: Random.Shared.Next(0, 256),
+                blue: Random.Shared.Next(0, 256));
+
+            Color randomColor5 = Color.FromRgb(red: Random.Shared.Next(0, 256),
+                green: Random.Shared.Next(0, 256),
+                blue: Random.Shared.Next(0, 256));
+
+            gstop1.Color = randomColor1;
+            gstop2.Color = randomColor2;
+            gstop3.Color = randomColor3;
+            gstop4.Color = randomColor4;
+            gstop5.Color = randomColor5;
+
+            int index = Random.Shared.Next(quotes.Count);
+
+            quote.Text = quotes[index];
+        }
     }
 
 }
