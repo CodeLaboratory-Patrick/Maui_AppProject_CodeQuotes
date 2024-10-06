@@ -60,8 +60,6 @@ In both images, you can see how the quote text changes after pressing the button
 ## Conclusion
 This application serves as an excellent example of combining MAUI capabilities with a minimalistic approach to both UI and logic. The separation of UI components (`MainPage.xaml`) from the logic (`MainPage.xaml.cs`) allows for easy maintenance and extensibility. The use of a `quotes.txt` file provides a straightforward way to manage the content, making it simple to update or expand the quotes library.
 
-Feel free to use this documentation in your GitHub repository to describe the project. It should help users understand the app's purpose, structure, and functionality.
-
 ---
 
 # LinearGradientBrush in .NET MAUI: StartPoint and EndPoint
