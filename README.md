@@ -165,7 +165,7 @@ In .NET MAUI, the **LinearGradientBrush** is a brush that provides a gradient fi
 
 ## Reference Sites
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
-- [Microsoft Learn - LinearGradientBrush](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/brushes/lineargradientbrush)
+- [Microsoft Learn - LinearGradientBrush](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/brushes/lineargradient?view=net-maui-8.0)
 - [Gradient Brushes in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/brushes)
 - CSS Gradient : https://cssgradient.io/
 
